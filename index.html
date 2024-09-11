@@ -15,7 +15,7 @@
         <h1 class="text-center">Email list (vue API)</h1>
         <div class="d-flex justify-content-center">
             <ul class="list-group row">
-                <li class="list-group-item col-12">
+                <li class="list-group-item col-12" v-for="email in emails">
                     {{ email }}
                 </li>
             </ul>
