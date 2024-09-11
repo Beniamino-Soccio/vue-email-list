@@ -9,11 +9,20 @@
 </head>
 <body>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
     
     <div id="app" class="container">
-        
+        <h1 class="text-center">Email list (vue API)</h1>
+        <div class="d-flex justify-content-center">
+            <ul class="list-group row">
+                <li class="list-group-item col-12">
+                    {{ email }}
+                </li>
+            </ul>
+        </div>
     </div>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.7/axios.min.js" integrity="sha512-DdX/YwF5e41Ok+AI81HI8f5/5UsoxCVT9GKYZRIzpLxb8Twz4ZwPPX+jQMwMhNQ9b5+zDEefc+dcvQoPWGNZ3g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
